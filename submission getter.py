@@ -49,14 +49,13 @@ def prepareParams(params, requestMethod):
 
 
 users = json.load(open("users.txt","r"))
-users['result'] = users['result'][100000:]
 
 
 # In[ ]:
 
 
 submissionData = []
-count = 100000
+count = 0
 for user in users['result']:
     params = {}
     params['handle'] = user['handle']
