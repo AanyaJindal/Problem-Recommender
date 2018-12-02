@@ -1,0 +1,6 @@
+recursive-include flaskr/templates *
+recursive-include flaskr/static *
+include model.pkl
+include confi.npz
+include user_id.pkl
+include problem_name.pkl
